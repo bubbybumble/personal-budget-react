@@ -12,7 +12,6 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link
 } from "react-router-dom";
 
 function App() {
@@ -23,8 +22,8 @@ function App() {
       <div className="mainContainer">
         <Routes>
 
-          <Route path='/about.html' element={<AboutPage/>} />
-          <Route path='/login.html' element={<LoginPage/>} />
+          <Route path='/about' element={<AboutPage/>} />
+          <Route path='/login' element={<LoginPage/>} />
           <Route path='/' element={<HomePage/>} />
           
         </Routes>
