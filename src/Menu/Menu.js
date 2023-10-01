@@ -5,7 +5,7 @@ import {
 
 function Menu() {
   return (
-    <nav class="menu" role="navigation">
+    <nav className="menu" role="navigation">
       <ul>
           <li><Link to="/">Homepage</Link></li>
           <li><Link to="about">About</Link></li>

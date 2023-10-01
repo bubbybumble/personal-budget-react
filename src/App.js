@@ -1,5 +1,5 @@
 
-import './App.css';
+import './App.scss';
 
 import Menu from './Menu/Menu';
 import Hero from './Hero/Hero';
@@ -8,11 +8,14 @@ import Footer from './Footer/Footer';
 import LoginPage from './LoginPage/LoginPage';
 import AboutPage from './AboutPage/AboutPage';
 
+
+
 import {
   BrowserRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";
+
 
 function App() {
   return (

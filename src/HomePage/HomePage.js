@@ -1,12 +1,13 @@
-
+import ChartJs from "../Charts/ChartJs";
+import D3Chart from "../Charts/D3Chart";
 
 function HomePage() {
   return (
-    <div class="container center">
+    <div className="container center">
        
-        <main class="page-area" role="main">
+        <main className="page-area" role="main">
 
-            <section class="text-box">
+            <section className="text-box">
                 <h1>Stay on track</h1>
                 <p>
                     Do you know where you are spending your money? If you really stop to track it down,
@@ -15,14 +16,14 @@ function HomePage() {
                 </p>
             </section>
     
-            <section class="text-box">
+            <section className="text-box">
                 <h1>Alerts</h1>
                 <p>
                     What if your clothing budget ended? You will get an alert. The goal is to never go over the budget.
                 </p>
             </section>
     
-            <section class="text-box">
+            <section className="text-box">
                 <h1>Results</h1>
                 <p>
                     People who stick to a financial plan, budgeting every expense, get out of debt faster!
@@ -31,14 +32,14 @@ function HomePage() {
                 </p>
             </section>
     
-            <section class="text-box">
+            <section className="text-box">
                 <h1>Free</h1>
                 <p>
                     This app is free!!! And you are the only one holding your data!
                 </p>
             </section>
     
-            <section class="text-box">
+            <section className="text-box">
                 <h1>Stay on track</h1>
                 <p>
                     Do you know where you are spending your money? If you really stop to track it down,
@@ -47,14 +48,14 @@ function HomePage() {
                 </p>
             </section>
     
-            <section class="text-box">
+            <section className="text-box">
                 <h1>Alerts</h1>
                 <p>
                     What if your clothing budget ended? You will get an alert. The goal is to never go over the budget.
                 </p>
             </section>
     
-            <section class="text-box">
+            <section className="text-box">
                 <h1>Results</h1>
                 <p>
                     People who stick to a financial plan, budgeting every expense, get out of debt faster!
@@ -63,19 +64,12 @@ function HomePage() {
                 </p>
             </section>
     
-            <section class="text-box">
-                <h1>Chart</h1>
-                <p>
-                    <canvas id="myChart" width="400" height="400"></canvas>
-                </p>
-            </section>
-
+            <ChartJs></ChartJs>
+            <D3Chart></D3Chart>
 
         </main>
 
-        <div id="chart2">
-            <h1>Chart 2</h1>
-        </div>
+       
     </div>
   );
 }
